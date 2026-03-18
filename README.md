@@ -1,6 +1,6 @@
 # Java Chess Project
 
-A basic chess game built in Java.
+A basic chess game built in Java with a graphical interface.
 
 ## Features
 
@@ -9,17 +9,22 @@ A basic chess game built in Java.
 - Mouse interaction
 - Image-based pieces
 
+## Download
+
+- [Download JAR (Windows / Cross-platform)](./ChessGame.jar)  
+- [Download Mac App (.dmg)](./ChessByJayden.dmg)
+
 ## How to Run
 
-cd src  
-javac main/*.java piece/*.java  
+### Option 1: Run the JAR
+### Option 2: Run from source:
+cd src
+javac main/*.java piece/*.java
 java main.Main
 
-## Notes
-
-Images are loaded from res/piece.  
-If images fail to load, check file paths.
-
 ## Requirements
+- Java JDK 17 or higher
 
-Java JDK 17+
+## Notes
+- Image assets are stored in res/piece/
+- If images fail to load, check file paths
