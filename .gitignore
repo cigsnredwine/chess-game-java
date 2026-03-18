@@ -1,3 +1,6 @@
-bin/
 *.class
+bin/
+out/
+*.app
+*.dmg
 .DS_Store
