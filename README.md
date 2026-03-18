@@ -1,18 +1,35 @@
-## Getting Started
+# Java Chess Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A basic chess game built in Java.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Chess board rendering
+- Piece movement
+- Mouse interaction
+- Image-based pieces
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Structure
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Chess/
+  src/
+    main/
+    piece/
+  res/
+    piece/
+  bin/
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Run
 
-## Dependency Management
+cd src  
+javac main/*.java piece/*.java  
+java main.Main
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Notes
+
+Images are loaded from res/piece.  
+If images fail to load, check file paths.
+
+## Requirements
+
+Java JDK 17+
