@@ -1,6 +1,6 @@
-# Java Chess Project
+# Chess By Jayden😂
 
-A basic chess game built in Java with a graphical interface.
+A basic chess game built in Java.
 
 ## Features
 
@@ -11,16 +11,24 @@ A basic chess game built in Java with a graphical interface.
 
 ## Download
 
-- [Download JAR (Windows / Cross-platform)](./ChessGame.jar)  
-- [Download Mac App (.dmg)](./ChessByJayden.dmg)
+[Download For Mac](https://github.com/cigsnredwine/chess-game-java/releases/latest)
 
 ## How to Run
 
-### Option 1: Run the JAR
-### Option 2: Run from source:
+### For Windows:
+#### Option 1: Run the JAR
+
+```bash
+java -jar ChessGame.jar
+```
+#### Option 2: Run from source:
+```bash
 cd src
 javac main/*.java piece/*.java
 java main.Main
+```
+### For Mac:
+- Install from .dmg
 
 ## Requirements
 - Java JDK 17 or higher
