@@ -9,17 +9,7 @@ A basic chess game built in Java.
 - Mouse interaction
 - Image-based pieces
 
-## Structure
-
-Chess/
-  src/
-    main/
-    piece/
-  res/
-    piece/
-  bin/
-
-## Run
+## How to Run
 
 cd src  
 javac main/*.java piece/*.java  
